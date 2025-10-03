@@ -1,12 +1,40 @@
-# React + Vite
+# 📄 Resume Checker  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Resume Checker** is a lightweight web tool that helps job seekers evaluate their resumes for **ATS (Applicant Tracking System) compatibility**. It highlights keywords, formatting issues, and missing sections to improve resume quality before job applications.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+- 🔎 **ATS Compatibility Check** – Ensures resumes pass through Applicant Tracking Systems.  
+- 📑 **Section Validation** – Detects missing sections like skills, education, or experience.  
+- 🧩 **Keyword Analysis** – Highlights important keywords for better matching.  
+- ⚡ **No Backend Needed** – Runs entirely on the client side.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** React, Tailwind CSS  
+- **Parsing:** FileReader API (PDF/DOCX parsing)  
+- **Deployment:** Vercel  
+
+---
+
+## ⚙️ Usage  
+
+1. Upload your resume (PDF/DOCX).  
+2. Get instant insights on ATS compatibility and improvements.  
+3. Optimize your resume with keyword suggestions.  
+
+---
+
+## 📌 Roadmap  
+
+- [ ] Export ATS score report as PDF.  
+- [ ] Add job description matcher.  
+- [ ] AI-based resume improvement suggestions.  
+
+---
+
+⚡ **Resume Checker – Helping you land more interviews.**  
